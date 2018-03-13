@@ -38,8 +38,24 @@ header {
 
 
 ol li
-
 {
   padding: 20px;
   background-color: grey;
+}
+
+ul li {
+  padding: 0;
+  background-color: white;
+}
+
+ol > li:nth-child(odd) {
+  background-color: green;
+}
+
+[title="Bitmaker"]:hover{
+  text-decoration: none;
+}
+
+ol li ul li:hover {
+  background-color: yellow;
 }
