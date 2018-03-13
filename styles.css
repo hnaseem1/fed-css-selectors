@@ -1,2 +1,45 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: Palatino, ‘Palatino Linotype’, ‘Hoefler Text’, Times, ‘Times New Roman’, serif;
+}
+
+header {
+  border-bottom: 3px dashed tomato;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 3px dotted blue;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+#item2 {
+  text-align: right;
+}
+
+
+ol li
+
+{
+  padding: 20px;
+  background-color: grey;
+}
